@@ -17,7 +17,7 @@ korge {
 // To selectively enable targets
 	
 	targetJvm()
-	targetJs()
+//	targetJs()
 	//targetDesktop()
 	//targetIos()
 	//targetAndroidIndirect() // targetAndroidDirect()
@@ -29,6 +29,7 @@ korge {
 
 dependencies {
     add("commonMainApi", project(":deps"))
+//    add("commonMainApi", project(":XenoECS"))
     //add("commonMainApi", project(":korge-dragonbones"))
 }
 
